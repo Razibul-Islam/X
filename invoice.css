@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background: #0D0D0D;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.invoiceContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logoSite {
+    width: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.logoSite img {
+    width: 25px;
+}
+
+.invoice {
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.invoiceDetails {
+    background: #171717;
+    width: 192px;
+    height: 132px;
+    border-radius: 10px 10px 20px 10px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.invoiceDetailsDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    direction: rtl;
+}
+
+.centerText {
+    text-align: center;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.invoiceFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+}
+
+.terms {
+    width: 402px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
